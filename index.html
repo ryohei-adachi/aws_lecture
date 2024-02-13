@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<!--CSSの読み込み-->
+<link href="style.css" rel="stylesheet">
+<title>AWSハンズオン</title>
+</head>
+<body>
+    <!--コンテンツ画面-->
+    <main class="content">
+        <form action="s3_upload.php" method="post" name="upload_form" enctype="multipart/form-data" >
+            <h1>AWSハンズオン</h1>
+            <div class="inner">
+                <div>
+                <input type="file" name="input_file" size="30" class="upload_file" id="file"/>
+                </div>
+                <div class="inner_button">
+                <input type="submit" value="画像をアップロード" class="exec_button" id="form_button" />
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
