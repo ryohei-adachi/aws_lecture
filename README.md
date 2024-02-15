@@ -4,7 +4,7 @@
 
 + AWSにログインしてください。
 
-
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/4c8cec3b-b46a-4e04-a90c-f5378e9f63a6)
 
 
 + AWSのマジメントコンソールを開き、リージョンを選択してください。
@@ -27,6 +27,10 @@
   + Amazon マシンイメージ (AMI): Amazon Linux 2023
   + インスタンスタイプ: t2.micro
   + キーペア (ログイン) : 新しいキーペアの作成をクリックして、キーペアを取得してください(ログイン時に使用します。)
+    +  キーペア名: 好きな名前を入力してください
+    +  キーペアのタイプ: RSA
+    +  プライベートキーファイル形式: 「.pem」
+
 
 ![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/05e292b4-55e6-48bd-addd-05e5a4ee682a)
 
@@ -38,7 +42,7 @@
 
 ![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/fa4d93e0-3cdd-4857-861f-9e032e38ca76)
 
-キーペア名は好きな名前を入力し、キーペアのタイプは「RSA」、プライベートキーファイル形式は「.pem」を選択して、「キーペアを作成」をクリックしてください。
+必要項目を入力をした後、「キーペアを作成」をクリックしてください。
 
 + 上記の内容の入力が出来ましたら、「インスタンスを起動」をクリックしてください。
 
