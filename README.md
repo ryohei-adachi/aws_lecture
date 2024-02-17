@@ -39,17 +39,19 @@
 
 ![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/ecc10718-aa70-4d39-b9fa-bd925ce0855b)
 
+
 ![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/71602f1e-f76d-49af-9ba6-c0a4c516c517)
+
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/fa4d93e0-3cdd-4857-861f-9e032e38ca76)
+
+必要項目を入力をした後、「キーペアを作成」をクリックしてください。
 
 ![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/63254121-0875-47eb-a8c0-6c0e7958e3bd)
 
 ![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/0a398555-165a-44e3-a2e3-99fe68664a05)
 
 ネットワークの設定ボタンをクリックし、パブリックIPの自動割り当てを「有効」に変えてください
-
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/fa4d93e0-3cdd-4857-861f-9e032e38ca76)
-
-必要項目を入力をした後、「キーペアを作成」をクリックしてください。
 
 + 上記の内容の入力が出来ましたら、「インスタンスを起動」をクリックしてください。
 
