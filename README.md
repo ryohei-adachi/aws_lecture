@@ -152,6 +152,7 @@ sudo mv composer.phar /usr/local/bin/composer
 ```
 cd
 composer require aws/aws-sdk-php
+```
 
 + 「vendor」というディレクトリファイルが存在することを確認してください。
 
@@ -169,4 +170,20 @@ ls -la /var/www/html/
 ```
 ![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/cb8cc28e-cc87-4039-847b-bf168fd36c20)
 
+## ⑦Webサーバの起動およびアクセス確認
+
++ 以下のコマンドを入力してください。
+
+```
+sudo systemctl start httpd
+sudo systemctl enable httpd
+```
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/7828a031-cc51-4f2d-87e5-10268b99f0f4)
+
++ ブラウザを開き、以下のURLをアクセスして、Webページが表示されることを確認してください。
+
+http://(EC2インスタンスのパブリックIPアドレス)
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/fe906750-0b2a-4c4c-811b-e87770e100fa)
 
