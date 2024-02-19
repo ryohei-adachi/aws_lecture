@@ -84,6 +84,89 @@
 ![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/bc998a8c-580f-4b45-97e2-cb4e502a502d)
 
 
+## ③EC2インスタンスにssh接続する
 
-   
++ EC2インスタンスのパブリックIPアドレスを確認してください。
+
+  ![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/6a27c26e-1eb6-49d9-b2f4-053dac0427c5)
+
+
+### Windowsユーザの方
+
++ Tera Term5を開き、ホストにEC2インスタンスのパブリックIPアドレスを入力して、OKをクリックする。
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/1f36595f-3aec-4143-8288-d1e1b2609e94)
+
++ 続行をクリックする。
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/3070e9e4-f7dd-497b-807a-747d28b307b9)
+
++ ユーザ名に「ec2-user」、認証方式は「RSA/DSA/ECDSA/ED25519鍵を使う」を選択してください。
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/7a691b46-2d8f-47bc-8bbb-70d53c1e29a9)
+
++ 秘密鍵の個所に、EC2インスタンス作成時に生成したキーペア(.pemファイル)を指定してください。
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/4e289e7a-a83b-4b6f-a47d-58174764999e)
+
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/e7aca950-e189-40d5-b891-4b692663c529)
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/67ca8b9b-dd7f-4dff-b31a-87c053732fea)
+
++ 「OK」をクリックして、EC2インスタンスに入れることを確認してください。
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/f8dfc541-f812-4cff-8cfa-a1c0a4065b10)
+
+## ④ApacheとPHPのインストール
+
++ ターミナルに下記のコマンドを実行してください。(1行ずつ入力をお願いします。)
+
+```
+sudo dnf update
+sudo dnf install -y httpd
+sudo dnf install -y php php-cli php-common php-mbstring php-gd php-xml php-mysqlnd
+sudo chmod 777 -R /var/www/html/
+```
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/cb42c0e6-443c-4a34-9cd9-0b87bc75e267)
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/078716cf-1da9-4e60-af85-92ef58d71446)
+
+
+## ⑤Composerインストール
+
++ ターミナルに下記のコマンドを実行してください。
+
+```
+cd
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+sudo mv composer.phar /usr/local/bin/composer
+```
+
+## ⑥AWS SDKインストール
+
++ ターミナルに下記のコマンドを実行してください。
+
+```
+cd
+composer require aws/aws-sdk-php
+
++ 「vendor」というディレクトリファイルが存在することを確認してください。
+
+```
+ls -la
+```
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/9f8f6bb7-e684-4407-ac85-d796c7dee0f7)
+
++ 「vendor」ディレクトリファイルを/var/www/htmlディレクトリファイルの配下に移動させます。
+
+```
+mv  vendor /var/www/html/
+ls -la /var/www/html/
+```
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/cb8cc28e-cc87-4039-847b-bf168fd36c20)
+
 
