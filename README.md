@@ -187,3 +187,37 @@ http://(EC2インスタンスのパブリックIPアドレス)
 
 ![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/fe906750-0b2a-4c4c-811b-e87770e100fa)
 
+
+# 2 ファイルアップロードができるWebサイトを制作しよう！
+
+ここからは、EC2インスタンスとS3を連携したアプリを開発します。
+
+## ①IAMロールの設定
+
+EC2からS3に対して操作を行う場合、EC2に対して、S3操作用のIAMロール(アクセス権限)を設定する必要があります。
+
++ マネジメントコンソールの検索部分に「IAM」と入力して、「IAM」を選択してください。
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/6277c854-8456-497b-84e5-4bc57e83dc20)
+
++ 左メニューから「ロール」を選択して、「ロールを作成」ボタンをクリックしてください。
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/b18aa6a1-9bf2-43d4-b250-dbcf62b25864)
+
+
++ 「信頼されたエンティティタイプ」は「AWSサービス」、ユースケースは「EC2」を選択して、「次へ」を押してください。
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/81015f74-9b88-4a84-a704-070de1a9a6a1)
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/86c60440-951e-483a-a164-f380cf3dfa27)
+
++ 許可ポリシーでは、「S3」と検索して、「AmazonS3FullAccess」にチェックを入れて、「次へ」を押してください。
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/8150e445-8f5b-4a78-adcd-9584d907559e)
+
++ ロール名には、分かりやすいロール名称を記載して、「ロールを作成」をクリックしてください。
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/ecece8df-906d-40df-8135-1ad023268262)
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/059eda35-03e4-4fc9-881a-710bcc5ba1c8)
+
+
