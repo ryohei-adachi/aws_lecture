@@ -240,3 +240,6 @@ EC2からS3に対して操作を行う場合、EC2に対して、S3操作用のI
 
 ## ②S3バケットの準備
 
++ マネジメントコンソールの検索部分に「S3」と入力して、「S3」を選択してください。
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/84fd6152-0027-4ee6-87ea-55f271e2f4bc)
