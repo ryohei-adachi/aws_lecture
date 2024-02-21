@@ -220,4 +220,23 @@ EC2からS3に対して操作を行う場合、EC2に対して、S3操作用のI
 
 ![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/059eda35-03e4-4fc9-881a-710bcc5ba1c8)
 
++ 「EC2」で検索を行い、EC2の設定画面に戻ります。
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/fe03e9bc-d228-4a1c-9dba-4e74d545b7e7)
+
++ 左のメニューから「インスタンス」を選択して、作成したEC2インスタンスを選択します。
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/ab31e01d-3e36-47be-8dc8-16ba4c0a4a14)
+
++ アクション > セキュリティ > IAMロールを変更を選択してください。
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/c482c35c-ab49-4bc1-939a-880d6c192886)
+
++ IAMロールに、上記で作成したロールを選択して、「IAMロールの更新」をクリックしてください。
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/15bce2e4-c382-4d73-a8f5-589ba2e5ae95)
+
+以上で、ロールの設定は完了です。
+
+## ②S3バケットの準備
 
