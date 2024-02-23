@@ -132,9 +132,10 @@ sudo dnf install -y httpd
 sudo dnf install -y php php-cli php-common php-mbstring php-gd php-xml php-mysqlnd
 sudo chmod 777 -R /var/www/html/
 ```
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/cb42c0e6-443c-4a34-9cd9-0b87bc75e267)
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/078716cf-1da9-4e60-af85-92ef58d71446)
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/cb42c0e6-443c-4a34-9cd9-0b87bc75e267" width="50%" />
+
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/078716cf-1da9-4e60-af85-92ef58d71446" width="50%" />
 
 
 ## ⑤Composerインストール
@@ -164,7 +165,8 @@ composer require aws/aws-sdk-php
 ls -la
 ```
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/9f8f6bb7-e684-4407-ac85-d796c7dee0f7)
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/9f8f6bb7-e684-4407-ac85-d796c7dee0f7" width="50%" />
+
 
 + 「vendor」ディレクトリファイルを/var/www/htmlディレクトリファイルの配下に移動させます。
 
