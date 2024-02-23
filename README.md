@@ -174,7 +174,9 @@ ls -la
 mv  vendor /var/www/html/
 ls -la /var/www/html/
 ```
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/cb8cc28e-cc87-4039-847b-bf168fd36c20)
+
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/cb8cc28e-cc87-4039-847b-bf168fd36c20" width="50%" />
+
 
 ## ⑦Webサーバの起動およびアクセス確認
 
@@ -185,7 +187,8 @@ sudo systemctl start httpd
 sudo systemctl enable httpd
 ```
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/7828a031-cc51-4f2d-87e5-10268b99f0f4)
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/7828a031-cc51-4f2d-87e5-10268b99f0f4" width="50%" />
+
 
 + ブラウザを開き、以下のURLをアクセスして、Webページが表示されることを確認してください。
 
