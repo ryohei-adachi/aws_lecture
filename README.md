@@ -20,10 +20,11 @@
 
  <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/17c66e10-3095-41e4-9baf-dd799a6c5549" width="70%" />
 
+<br><br>
+
  <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/6025e6ac-d8d2-4207-a74b-96a10b8a4af5" width="70%" />
 
-<br>
-<br>
+<br><br><br>
 
 + 「Launch an instance」では下記の内容を入力・選択する
   + 名前: 好きなサーバ名を入力してください
@@ -35,18 +36,27 @@
     +  キーペアのタイプ: RSA
     +  プライベートキーファイル形式: 「.pem」
       
-<br>
+<br><br><br>
 
  <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/05e292b4-55e6-48bd-addd-05e5a4ee682a" width="70%" />
 
+<br><br>
+
  <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/26f81d98-07d2-482e-b37f-545b5e72b1cb" width="70%" />
+
+<br><br>
 
  <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/ecc10718-aa70-4d39-b9fa-bd925ce0855b" width="70%" />
 
+<br><br>
+
  <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/71602f1e-f76d-49af-9ba6-c0a4c516c517" width="70%" />
+
+<br><br>
 
  <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/fa4d93e0-3cdd-4857-861f-9e032e38ca76" width="70%" />
 
+<br><br>
 
 必要項目を入力をした後、「キーペアを作成」をクリックしてください。
 
@@ -92,35 +102,40 @@
 
 + EC2インスタンスのパブリックIPアドレスを確認してください。
 
-  ![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/6a27c26e-1eb6-49d9-b2f4-053dac0427c5)
 
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/6a27c26e-1eb6-49d9-b2f4-053dac0427c5" width="70%" />
 
 ### Windowsユーザの方
 
 + Tera Term5を開き、ホストにEC2インスタンスのパブリックIPアドレスを入力して、OKをクリックする。
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/1f36595f-3aec-4143-8288-d1e1b2609e94)
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/1f36595f-3aec-4143-8288-d1e1b2609e94" width="50%" />
 
 + 続行をクリックする。
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/3070e9e4-f7dd-497b-807a-747d28b307b9)
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/3070e9e4-f7dd-497b-807a-747d28b307b9" width="50%" />
 
 + ユーザ名に「ec2-user」、認証方式は「RSA/DSA/ECDSA/ED25519鍵を使う」を選択してください。
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/7a691b46-2d8f-47bc-8bbb-70d53c1e29a9)
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/7a691b46-2d8f-47bc-8bbb-70d53c1e29a9" width="50%" />
+
 
 + 秘密鍵の個所に、EC2インスタンス作成時に生成したキーペア(.pemファイル)を指定してください。
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/4e289e7a-a83b-4b6f-a47d-58174764999e)
 
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/4e289e7a-a83b-4b6f-a47d-58174764999e" width="50%" />
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/e7aca950-e189-40d5-b891-4b692663c529)
+<br><br>
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/67ca8b9b-dd7f-4dff-b31a-87c053732fea)
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/e7aca950-e189-40d5-b891-4b692663c529" width="50%" />
+
+<br><br>
+
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/67ca8b9b-dd7f-4dff-b31a-87c053732fea" width="50%" />
 
 + 「OK」をクリックして、EC2インスタンスに入れることを確認してください。
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/f8dfc541-f812-4cff-8cfa-a1c0a4065b10)
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/f8dfc541-f812-4cff-8cfa-a1c0a4065b10" width="50%" />
 
 ## ④ApacheとPHPのインストール
 
@@ -207,66 +222,77 @@ EC2からS3に対して操作を行う場合、EC2に対して、S3操作用のI
 
 + マネジメントコンソールの検索部分に「IAM」と入力して、「IAM」を選択してください。
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/6277c854-8456-497b-84e5-4bc57e83dc20)
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/6277c854-8456-497b-84e5-4bc57e83dc20" width="70%" />
 
 + 左メニューから「ロール」を選択して、「ロールを作成」ボタンをクリックしてください。
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/b18aa6a1-9bf2-43d4-b250-dbcf62b25864)
-
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/b18aa6a1-9bf2-43d4-b250-dbcf62b25864" width="70%" />
 
 + 「信頼されたエンティティタイプ」は「AWSサービス」、ユースケースは「EC2」を選択して、「次へ」を押してください。
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/81015f74-9b88-4a84-a704-070de1a9a6a1)
+  
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/81015f74-9b88-4a84-a704-070de1a9a6a1" width="70%" />
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/86c60440-951e-483a-a164-f380cf3dfa27)
+<br><br>
+
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/86c60440-951e-483a-a164-f380cf3dfa27" width="70%" />
 
 + 許可ポリシーでは、「S3」と検索して、「AmazonS3FullAccess」にチェックを入れて、「次へ」を押してください。
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/8150e445-8f5b-4a78-adcd-9584d907559e)
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/8150e445-8f5b-4a78-adcd-9584d907559e" width="70%" />
 
 + ロール名には、分かりやすいロール名称を記載して、「ロールを作成」をクリックしてください。
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/ecece8df-906d-40df-8135-1ad023268262)
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/ecece8df-906d-40df-8135-1ad023268262" width="70%" />
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/059eda35-03e4-4fc9-881a-710bcc5ba1c8)
+<br><br>
+
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/059eda35-03e4-4fc9-881a-710bcc5ba1c8" width="70%" />
 
 + 「EC2」で検索を行い、EC2の設定画面に戻ります。
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/fe03e9bc-d228-4a1c-9dba-4e74d545b7e7)
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/fe03e9bc-d228-4a1c-9dba-4e74d545b7e7" width="70%" />
 
 + 左のメニューから「インスタンス」を選択して、作成したEC2インスタンスを選択します。
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/ab31e01d-3e36-47be-8dc8-16ba4c0a4a14)
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/ab31e01d-3e36-47be-8dc8-16ba4c0a4a14" width="70%" />
 
 + アクション > セキュリティ > IAMロールを変更を選択してください。
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/c482c35c-ab49-4bc1-939a-880d6c192886)
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/c482c35c-ab49-4bc1-939a-880d6c192886" width="70%" />
 
 + IAMロールに、上記で作成したロールを選択して、「IAMロールの更新」をクリックしてください。
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/15bce2e4-c382-4d73-a8f5-589ba2e5ae95)
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/15bce2e4-c382-4d73-a8f5-589ba2e5ae95" width="70%" />
 
 以上で、ロールの設定は完了です。
+
+<br>
+<br>
 
 ## ②S3バケットの準備
 
 + マネジメントコンソールの検索部分に「S3」と入力して、「S3」を選択してください。
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/84fd6152-0027-4ee6-87ea-55f271e2f4bc)
+
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/84fd6152-0027-4ee6-87ea-55f271e2f4bc" width="70%" />
 
 + 「バケットを作成」をクリックしてください。
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/d7a843f6-e0bb-4bd6-b013-58e1023f4111)
 
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/d7a843f6-e0bb-4bd6-b013-58e1023f4111" width="70%" />
 
 + バケット名を入力してください。(それ以外の項目については、変更なし。)
     + バケット名は、世界中の全AWSユーザ間で唯一(一意)の名前にしないといけません。
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/cc4f0fb3-9646-4316-b974-7f442ac065cb)
 
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/cc4f0fb3-9646-4316-b974-7f442ac065cb" width="70%" />
 
 +「バケットを作成」をクリックして、バケットを作成してください。
 
-![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/ed3b404b-b4f7-4d64-a3a0-5c5ffd8e6fef)
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/ed3b404b-b4f7-4d64-a3a0-5c5ffd8e6fef" width="70%" />
+
+<br>
+<br>
 
 ## ③Webアプリケーションの開発:
 
@@ -274,5 +300,14 @@ EC2からS3に対して操作を行う場合、EC2に対して、S3操作用のI
   + index.html
   + style.css
   + s3_upload.php 
+
+<br>
+「Download ZIP」で全ファイルをダウンロードすることができます。
+<br>
+<br>
+<br>
+
+ <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/7e9457c3-2b36-463c-89fe-01fb600b0c1f" width="70%" />
+
 
 + s3_upload.phpをテキストエディタで開いて、作成したS3のバケット名を記入します。
