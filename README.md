@@ -243,3 +243,27 @@ EC2からS3に対して操作を行う場合、EC2に対して、S3操作用のI
 + マネジメントコンソールの検索部分に「S3」と入力して、「S3」を選択してください。
 
 ![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/84fd6152-0027-4ee6-87ea-55f271e2f4bc)
+
++ 「バケットを作成」をクリックしてください。
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/d7a843f6-e0bb-4bd6-b013-58e1023f4111)
+
+
++ バケット名を入力してください。(それ以外の項目については、変更なし。)
+    + バケット名は、世界中の全AWSユーザ間で唯一(一意)の名前にしないといけません。
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/cc4f0fb3-9646-4316-b974-7f442ac065cb)
+
+
++「バケットを作成」をクリックして、バケットを作成してください。
+
+![image](https://github.com/ryohei-adachi/aws_lecture/assets/75190594/ed3b404b-b4f7-4d64-a3a0-5c5ffd8e6fef)
+
+## ③Webアプリケーションの開発:
+
++ GitHubの本リポジトリから以下のファイルをダウンロードしてください。
+  + index.html
+  + style.css
+  + s3_upload.php 
+
++ s3_upload.phpをテキストエディタで開いて、作成したS3のバケット名を記入します。
