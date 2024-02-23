@@ -300,7 +300,7 @@ ls -la
 
 <br><br>
 
- <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/9f8f6bb7-e684-4407-ac85-d796c7dee0f7" width="50%" />
+<img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/9f8f6bb7-e684-4407-ac85-d796c7dee0f7" width="50%" />
 
 <br><br>
 
@@ -414,11 +414,19 @@ EC2からS3に対して操作を行う場合、EC2に対して、S3操作用のI
 
 + アクション > セキュリティ > IAMロールを変更を選択してください。
 
- <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/c482c35c-ab49-4bc1-939a-880d6c192886" width="70%" />
+<br><br>
+
+<img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/c482c35c-ab49-4bc1-939a-880d6c192886" width="70%" />
+
+<br><br>
 
 + IAMロールに、上記で作成したロールを選択して、「IAMロールの更新」をクリックしてください。
 
- <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/15bce2e4-c382-4d73-a8f5-589ba2e5ae95" width="70%" />
+<br><br>
+
+<img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/15bce2e4-c382-4d73-a8f5-589ba2e5ae95" width="70%" />
+
+<br><br>
 
 以上で、ロールの設定は完了です。
 
@@ -448,14 +456,15 @@ EC2からS3に対して操作を行う場合、EC2に対して、S3操作用のI
 
 <br><br>
 
-+「バケットを作成」をクリックして、バケットを作成してください。
++ 「バケットを作成」をクリックして、バケットを作成してください。
 
 <img src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/ed3b404b-b4f7-4d64-a3a0-5c5ffd8e6fef" width="70%" />
 
-<br>
-<br>
+<br><br>
 
 ## ③Webアプリケーションの開発:
+
+<br><br>
 
 + GitHubの本リポジトリから以下のファイルをダウンロードしてください。
   + index.html
@@ -546,4 +555,9 @@ http://(EC2インスタンスのパブリックIPアドレス)
 
 <img width="70%" alt="image" src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/fed68da0-ca40-4735-b218-65423724265c">
 
+<br><br>
+EC2とS3の連携ができました。
+<br><br>
+
+以上です。
 
