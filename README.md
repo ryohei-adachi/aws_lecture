@@ -472,7 +472,7 @@ EC2からS3に対して操作を行う場合、EC2に対して、S3操作用のI
   + s3_upload.php 
 
 <br>
-「Download ZIP」で全ファイルをダウンロードすることができます。
+「Download ZIP」で全ファイルをダウンロードすることができます。(zipファイルは解凍してください。)
 <br>
 <br>
 <br>
@@ -502,6 +502,17 @@ EC2からS3に対して操作を行う場合、EC2に対して、S3操作用のI
 <br><br>
 
 + Gitから取得したファイルをEC2インスタンスにアップロードします。
+
+### Windowsユーザの方
+
++ 各ファイルをターミナルへドラック＆ドロップしてください。
+
+<img width="70%" alt="image" src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/ab74304a-9169-449c-9d34-932d735c8800">
+
++ 送信先を「/var/www/html」と入力して、「OK」をクリックしてください。
+
+<img width="70%" alt="image" src="https://github.com/ryohei-adachi/aws_lecture/assets/75190594/9820e0eb-aeff-4fae-8e89-5c77fac2a9a6">
+
 
 ### Macユーザの方
 
